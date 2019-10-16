@@ -5,7 +5,7 @@ services:
       context: ./meetapp-api
     env_file: .env
     volumes:
-      - "./meetapp:/usr/app"
+      - "./meetapp-api:/usr/app"
     ports:
       - "3000:3000"
     depends_on:
